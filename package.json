@@ -1,6 +1,6 @@
 {
-  "name": "@philiprehberger/ts-web-vitals",
-  "version": "0.1.1",
+  "name": "@philiprehberger/web-vitals",
+  "version": "0.1.2",
   "description": "Web Vitals calculation utilities and client error capture",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
