@@ -1,6 +1,6 @@
 # @philiprehberger/web-vitals
 
-[![CI](https://github.com/philiprehberger/web-vitals/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/web-vitals/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/web-vitals/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/web-vitals/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/web-vitals.svg)](https://www.npmjs.com/package/@philiprehberger/web-vitals)
 [![License](https://img.shields.io/github/license/philiprehberger/web-vitals)](LICENSE)
 
@@ -40,6 +40,15 @@ initClientErrorCapture({
 - Value formatting for display
 - Page path normalization (replaces dynamic IDs)
 - Client-side error capture (unhandled errors + promise rejections)
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
