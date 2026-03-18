@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/web-vitals.svg)](https://www.npmjs.com/package/@philiprehberger/web-vitals)
 [![License](https://img.shields.io/github/license/philiprehberger/web-vitals)](LICENSE)
 
-Web Vitals calculation utilities and client error capture.
+Web Vitals calculation utilities and client error capture
 
 ## Installation
 
@@ -32,15 +32,24 @@ initClientErrorCapture({
 });
 ```
 
-## Features
+## API
 
-- Web Vitals thresholds based on Google's recommendations (LCP, CLS, FID, INP, FCP, TTFB)
-- Rating calculation (good / needs-improvement / poor)
-- Percentile calculation (p50, p75, p95)
-- Value formatting for display
-- Page path normalization (replaces dynamic IDs)
-- Client-side error capture (unhandled errors + promise rejections)
-
+| Export | Type | Description |
+|--------|------|-------------|
+| `getWebVitalRating(metric, value)` | Function | Returns `'good' \| 'needs-improvement' \| 'poor'` for a metric value |
+| `calculateWebVitalStats(metric, values)` | Function | Compute p50/p75/p95 percentiles and rating distribution |
+| `calculatePercentile(sortedValues, percentile)` | Function | Generic percentile calculation on a sorted array |
+| `formatWebVitalValue(metric, value)` | Function | Format a value for display (e.g. `2500` -> `'2.5s'`) |
+| `getRatingLabel(rating)` | Function | Convert rating to display label (`'Good'`, `'Needs Improvement'`, `'Poor'`) |
+| `getWorstMetric(metrics)` | Function | Find the worst-performing metric from a set of stats |
+| `normalizePagePath(url)` | Function | Replace dynamic URL segments with `[id]`/`[uuid]` placeholders |
+| `initClientErrorCapture(options)` | Function | Set up global error and unhandled rejection capture |
+| `WEB_VITALS_THRESHOLDS` | Constant | Threshold definitions for all six Core Web Vitals |
+| `WebVitalName` | Type | `'LCP' \| 'CLS' \| 'FID' \| 'INP' \| 'FCP' \| 'TTFB'` |
+| `WebVitalRating` | Type | `'good' \| 'needs-improvement' \| 'poor'` |
+| `WebVitalStats` | Type | Stats object with percentiles and rating counts |
+| `PageWebVitals` | Type | Per-page metrics with worst metric identification |
+| `ClientErrorCaptureOptions` | Type | Options: `endpoint`, `headers?`, `beforeReport?` |
 
 ## Development
 
