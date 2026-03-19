@@ -2,7 +2,7 @@ import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 
 describe('web-vitals', async () => {
-  const mod = await import('../../dist/index.mjs');
+  const mod = await import('../../dist/index.js');
 
   it('exports WEB_VITALS_THRESHOLDS as an object', () => {
     assert.ok(typeof mod.WEB_VITALS_THRESHOLDS === 'object');
