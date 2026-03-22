@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/web-vitals",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Web Vitals calculation utilities and client error capture",
   "type": "module",
   "main": "./dist/index.cjs",
