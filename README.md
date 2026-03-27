@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-web-vitals/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-web-vitals/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/web-vitals.svg)](https://www.npmjs.com/package/@philiprehberger/web-vitals)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-web-vitals)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Web Vitals calculation utilities and client error capture
 
