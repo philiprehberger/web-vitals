@@ -1,9 +1,8 @@
 # @philiprehberger/web-vitals
 
-[![CI](https://github.com/philiprehberger/ts-web-vitals/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-web-vitals/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/web-vitals/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/web-vitals/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/web-vitals.svg)](https://www.npmjs.com/package/@philiprehberger/web-vitals)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-web-vitals)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/web-vitals)](https://github.com/philiprehberger/web-vitals/commits/main)
 
 Web Vitals calculation utilities and client error capture
 
@@ -60,6 +59,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/web-vitals)
+
+🐛 [Report issues](https://github.com/philiprehberger/web-vitals/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/web-vitals/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
